@@ -1,0 +1,23 @@
+# Env
+.env
+
+# Python
+_pycache_/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+
+# Vibe coding
+.claude/
+
+# Ignorar variantes de .env (pero NO los .env.example)
+*/.env.
+!**/.env.example

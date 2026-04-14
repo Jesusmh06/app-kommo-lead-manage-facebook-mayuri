@@ -1,0 +1,24 @@
+python-dotenv
+openai
+llama-cloud>=1.0
+llama-index-core
+llama-index-embeddings-openai
+llama-index-readers-file
+llama-index-llms-openai
+
+requests
+
+ngrok
+
+#PostgreSQL (Supabase) para historial de conversación
+llama-index-storage-chat-store-postgres
+psycopg[binary]
+
+#Estos son para FastAPI
+fastapi
+uvicorn
+
+#tool de envio de correo
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.155.0

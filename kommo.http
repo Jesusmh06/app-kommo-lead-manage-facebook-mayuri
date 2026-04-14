@@ -1,0 +1,38 @@
+### Obtener campos personalizados
+GET https://jesusmh06.kommo.com/api/v4/leads/custom_fields
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjRkMWQ3OGYxNjU4NDUyMWIyZWJkZDFmNjIyNmRjZmRjNmQ1MmY3ODdhNTQ4YWMzYmMxY2ViNjE5OTM5ZTlhNTcxMThmOGYzNTQ3MDk0ZWQxIn0.eyJhdWQiOiI0MTYwYTQ0Ni1jZWQ5LTQ4MjktYjA1MS00YzRjM2NkMWQ0MDkiLCJqdGkiOiI0ZDFkNzhmMTY1ODQ1MjFiMmViZGQxZjYyMjZkY2ZkYzZkNTJmNzg3YTU0OGFjM2JjMWNlYjYxOTkzOWU5YTU3MTE4ZjhmMzU0NzA5NGVkMSIsImlhdCI6MTc3NTkzNDk5NiwibmJmIjoxNzc1OTM0OTk2LCJleHAiOjE3ODAxODU2MDAsInN1YiI6IjE1MDc2NTYzIiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjM2MzExMzk5LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXSwiaGFzaF91dWlkIjoiZTQ1NWQ1ZDQtZGI5ZS00N2ZkLThkYzQtZDk5YjY3NWM2ZGI2IiwiYXBpX2RvbWFpbiI6ImFwaS1jLmtvbW1vLmNvbSJ9.FllheTWqof8UC_JnWI7BRzSJjt8w9W056E6l6WA_BDNdFe4j5N8y6CckOOLTNi-k9zhAuESWUs-3TWzrR5O3xzxEpXFhLGP1fSQ9P1ajtThZlL0xVjkTDZBHdjmDTEPKUGCtnXKV6Jk_FApXL3bO1QdjIvkQrOeeVIi4nw6HHZ4nrftBnRbIKbsulR9j4nuUC9t8PubyQhmu0I6fN5-d95GzOronhIlkNcu6UVazdDFDF4-zW_H5-nEQQDQ_4v12AVG3Htk5136VYFaVZG3D1Y9M98wnbEeNdW_QmFISIQuZvkIMiM-uk1bFi9n76vTSUs9T2uq7HE1cwi_Hcn5H3w
+Content-Type: application/json
+
+###  Actualizar el lead con Marca y Método de pago
+PATCH https://jesusmh06.kommo.com/api/v4/leads/27854728
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6IjRkMWQ3OGYxNjU4NDUyMWIyZWJkZDFmNjIyNmRjZmRjNmQ1MmY3ODdhNTQ4YWMzYmMxY2ViNjE5OTM5ZTlhNTcxMThmOGYzNTQ3MDk0ZWQxIn0.eyJhdWQiOiI0MTYwYTQ0Ni1jZWQ5LTQ4MjktYjA1MS00YzRjM2NkMWQ0MDkiLCJqdGkiOiI0ZDFkNzhmMTY1ODQ1MjFiMmViZGQxZjYyMjZkY2ZkYzZkNTJmNzg3YTU0OGFjM2JjMWNlYjYxOTkzOWU5YTU3MTE4ZjhmMzU0NzA5NGVkMSIsImlhdCI6MTc3NTkzNDk5NiwibmJmIjoxNzc1OTM0OTk2LCJleHAiOjE3ODAxODU2MDAsInN1YiI6IjE1MDc2NTYzIiwiZ3JhbnRfdHlwZSI6IiIsImFjY291bnRfaWQiOjM2MzExMzk5LCJiYXNlX2RvbWFpbiI6ImtvbW1vLmNvbSIsInZlcnNpb24iOjIsInNjb3BlcyI6WyJwdXNoX25vdGlmaWNhdGlvbnMiLCJmaWxlcyIsImNybSIsImZpbGVzX2RlbGV0ZSIsIm5vdGlmaWNhdGlvbnMiXSwiaGFzaF91dWlkIjoiZTQ1NWQ1ZDQtZGI5ZS00N2ZkLThkYzQtZDk5YjY3NWM2ZGI2IiwiYXBpX2RvbWFpbiI6ImFwaS1jLmtvbW1vLmNvbSJ9.FllheTWqof8UC_JnWI7BRzSJjt8w9W056E6l6WA_BDNdFe4j5N8y6CckOOLTNi-k9zhAuESWUs-3TWzrR5O3xzxEpXFhLGP1fSQ9P1ajtThZlL0xVjkTDZBHdjmDTEPKUGCtnXKV6Jk_FApXL3bO1QdjIvkQrOeeVIi4nw6HHZ4nrftBnRbIKbsulR9j4nuUC9t8PubyQhmu0I6fN5-d95GzOronhIlkNcu6UVazdDFDF4-zW_H5-nEQQDQ_4v12AVG3Htk5136VYFaVZG3D1Y9M98wnbEeNdW_QmFISIQuZvkIMiM-uk1bFi9n76vTSUs9T2uq7HE1cwi_Hcn5H3w
+Content-Type: application/json
+
+{
+  "custom_fields_values": [
+    {
+      "field_id": 1847871,
+      "values": [{ "value": "VitaCalm" }]
+    },
+    {
+      "field_id": 1847873,
+      "values": [{ "value": "Transferencia" }]
+    },
+    {
+      "field_id": 1848133,
+      "values": [{ "value": "Jesus" }]
+    },
+    {
+      "field_id": 1848135,
+      "values": [{ "value": "999999999" }]
+    },
+    {
+      "field_id": 1848137,
+      "values": [{ "value": "jemh@gmail.com" }]
+    },
+    {
+      "field_id": 1848139,
+      "values": [{ "value": "Direccion 123" }]
+    }
+  ]
+}

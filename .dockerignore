@@ -1,0 +1,34 @@
+.git
+.gitignore
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment/secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor files/vibe coding
+.DS_Store
+Thumbs.db
+.vscode/
+.claude/
+
+# Build/distribution artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
