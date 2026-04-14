@@ -21,3 +21,6 @@ dist/
 # Ignorar variantes de .env (pero NO los .env.example)
 */.env.
 !**/.env.example
+
+# Pruebas de http Komo
+kommo.http
